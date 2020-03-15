@@ -13,9 +13,9 @@ namespace DefaultInterfaceMethods
     {
         static void Main(string[] args)
         {
-            BookBasket basket = new BookBasket(2, 5.2);
+            BookBasket basket = new BookBasket(2);
 
-            Console.WriteLine(basket.TotalPrice());
+            //Console.WriteLine(basket.TotalPrice());
             
             PaperBasket paperBasket = new PaperBasket(100, 1.5);
 
