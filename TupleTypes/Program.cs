@@ -13,12 +13,12 @@ namespace TupleTypes
             var foo = (val1: 1, val2: 3);
             var bar = (val1: 1, val2: 3);
 
-            Console.WriteLine(foo == bar); // return of true
+            Console.WriteLine(foo == bar); // also true
 
             (int a, int b) values1 = (1, 5);
             (int c, int d) values2 = (1, 5);
 
-            Console.WriteLine(values1 == values2); // return of true
+            Console.WriteLine(values1 == values2); // also true
 
             (int x, int y) = (12, 13);
 
@@ -31,6 +31,15 @@ namespace TupleTypes
             
             Console.WriteLine($"Values x:{x2} y:{y2}");
 
+            (int, (int, int)) nestedTuple = (1, (2, 3));
+            
+            Console.WriteLine(nestedTuple == (1, (2, 3))); // also true
+            
+            var left = (a: 5, b: 10);
+            (int? a, int? b) nullableMembers = (5, 10);
+            
+            Console.WriteLine(left == nullableMembers); // also true
+            
             (string firstName, string lastName) person01 = ("İbrahim", "ATAY");
             var val01 = GetPersonInfo(person01);
 
