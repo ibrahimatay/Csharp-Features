@@ -57,7 +57,26 @@ namespace TupleTypes
             
             var val04 = OverrideGetPersonInfo01(person01);
             
-            Console.WriteLine($"OverrideGetPersonInfo01 by {val03.id} {val03.firstName} {val03.lastName}");
+            Console.WriteLine($"OverrideGetPersonInfo01 by {val04.id} {val04.firstName} {val04.lastName}");
+
+            (Course course, Student student, Instructor instructor) university =
+            (
+                course: new Course
+                {
+                    CourseName = "Modern Compiler Design"
+                },
+                student: new Student
+                {
+                    FullName = "İbrahim ATAY"
+
+                },
+                instructor: new Instructor
+                {
+                    FullName = "James Gosling"
+                }
+            );
+
+            Console.WriteLine($"university Course:{university.course} Instructor:{university.instructor} Student:{university.student}");
         }
 
         static (string firstName, string lastName) GetPersonInfo(
@@ -81,6 +100,36 @@ namespace TupleTypes
             (string firstName, string lastName) person)
         {
             return (1, firstName: person.firstName, lastName: person.lastName);
+        }
+    }
+
+    class Course
+    {
+        public string CourseName { get; set; }
+
+        public override string ToString()
+        {
+            return CourseName;
+        }
+    }
+    
+    class Student
+    {
+        public string FullName { get; set; }
+
+        public override string ToString()
+        {
+            return FullName;
+        }
+    }
+
+    class Instructor
+    {
+        public string FullName { get; set; }
+        
+        public override string ToString()
+        {
+            return FullName;
         }
     }
 }
