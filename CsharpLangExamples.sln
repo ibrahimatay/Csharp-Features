@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DefaultInterfaceMethods", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumericLiteralSyntaxImprovements", "NumericLiteralSyntaxImprovements\NumericLiteralSyntaxImprovements.csproj", "{3786ADEF-0A44-4423-93A9-22C7535199A7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TupleTypes", "TupleTypes\TupleTypes.csproj", "{8258CFCE-03B8-4EB0-AF78-EAA7F88F4227}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{3786ADEF-0A44-4423-93A9-22C7535199A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3786ADEF-0A44-4423-93A9-22C7535199A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3786ADEF-0A44-4423-93A9-22C7535199A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8258CFCE-03B8-4EB0-AF78-EAA7F88F4227}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8258CFCE-03B8-4EB0-AF78-EAA7F88F4227}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8258CFCE-03B8-4EB0-AF78-EAA7F88F4227}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8258CFCE-03B8-4EB0-AF78-EAA7F88F4227}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
