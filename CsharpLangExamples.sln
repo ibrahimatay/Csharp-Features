@@ -1,14 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticLocalFunctions", "StaticLocalFunctions\StaticLocalFunctions.csproj", "{4FDEFE2B-68F7-400A-ADEE-46743108B6D1}"
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StaticLocalFunctions", "StaticLocalFunctions\StaticLocalFunctions.csproj", "{4FDEFE2B-68F7-400A-ADEE-46743108B6D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DefaultInterfaceMethods", "DefaultInterfaceMethods\DefaultInterfaceMethods.csproj", "{67A35B37-E6B3-4826-A338-C5B59654F4A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DefaultInterfaceMethods", "DefaultInterfaceMethods\DefaultInterfaceMethods.csproj", "{67A35B37-E6B3-4826-A338-C5B59654F4A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumericLiteralSyntaxImprovements", "NumericLiteralSyntaxImprovements\NumericLiteralSyntaxImprovements.csproj", "{3786ADEF-0A44-4423-93A9-22C7535199A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumericLiteralSyntaxImprovements", "NumericLiteralSyntaxImprovements\NumericLiteralSyntaxImprovements.csproj", "{3786ADEF-0A44-4423-93A9-22C7535199A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TupleTypes", "TupleTypes\TupleTypes.csproj", "{8258CFCE-03B8-4EB0-AF78-EAA7F88F4227}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TupleTypes", "TupleTypes\TupleTypes.csproj", "{8258CFCE-03B8-4EB0-AF78-EAA7F88F4227}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsynchronousStreams", "AsynchronousStreams\AsynchronousStreams.csproj", "{4B90F64C-6005-45C4-86A0-DDCFD702D780}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsynchronousStreams", "AsynchronousStreams\AsynchronousStreams.csproj", "{4B90F64C-6005-45C4-86A0-DDCFD702D780}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatternMatching", "PatternMatching\PatternMatching.csproj", "{2EDA8274-2C25-4D94-8BE5-10B7AC7AABD4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,5 +41,15 @@ Global
 		{4B90F64C-6005-45C4-86A0-DDCFD702D780}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4B90F64C-6005-45C4-86A0-DDCFD702D780}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B90F64C-6005-45C4-86A0-DDCFD702D780}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EDA8274-2C25-4D94-8BE5-10B7AC7AABD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EDA8274-2C25-4D94-8BE5-10B7AC7AABD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EDA8274-2C25-4D94-8BE5-10B7AC7AABD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EDA8274-2C25-4D94-8BE5-10B7AC7AABD4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A7F212DA-5C27-4898-84D7-BBB38B4C9FFF}
 	EndGlobalSection
 EndGlobal
