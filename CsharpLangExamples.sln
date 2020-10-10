@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TupleTypes", "TupleTypes\Tu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsynchronousStreams", "AsynchronousStreams\AsynchronousStreams.csproj", "{4B90F64C-6005-45C4-86A0-DDCFD702D780}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatternMatching", "PatternMatching\PatternMatching.csproj", "{2EDA8274-2C25-4D94-8BE5-10B7AC7AABD4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PatternMatching", "PatternMatching\PatternMatching.csproj", "{2EDA8274-2C25-4D94-8BE5-10B7AC7AABD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatternMatchingCsharp9", "PatternMatchingCsharp9\PatternMatchingCsharp9.csproj", "{5DCC0F83-15AF-4976-864C-1BC7792C33B3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{2EDA8274-2C25-4D94-8BE5-10B7AC7AABD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2EDA8274-2C25-4D94-8BE5-10B7AC7AABD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2EDA8274-2C25-4D94-8BE5-10B7AC7AABD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DCC0F83-15AF-4976-864C-1BC7792C33B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DCC0F83-15AF-4976-864C-1BC7792C33B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DCC0F83-15AF-4976-864C-1BC7792C33B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DCC0F83-15AF-4976-864C-1BC7792C33B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
