@@ -10,6 +10,7 @@ C# programming are examples that I have created with the aim of following the la
 - Pattern Matching
 - Static Local Functions
 - Tuple Types
+- Record Types
 
 
 [language design]: https://github.com/dotnet/csharplang
