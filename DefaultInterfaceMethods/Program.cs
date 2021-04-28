@@ -96,4 +96,12 @@ namespace DefaultInterfaceMethods
             Console.WriteLine("Exception Logger");
         }
     }
+
+    public abstract class Telemetry : ILogger
+    {
+        public void Log(LogLevel level, string message)
+        {
+            Console.WriteLine($"{level} - {message}");
+        }
+    }
 }
