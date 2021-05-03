@@ -9,6 +9,7 @@ C# programming are examples that I have created with the aim of following the la
 - Numeric Literal Syntax Improvements
 - Pattern Matching
 - Static Local Functions
+- Static Namespace 
 - Tuple Types
 - Record Types
 
