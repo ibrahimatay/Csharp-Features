@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PatternMatchingCsharp9", "P
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecordTypes", "RecordTypes\RecordTypes.csproj", "{2F8AF14F-3730-4C99-A94D-A3BEFA19DC2F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingStaticDirective", "UsingStaticDirective\UsingStaticDirective.csproj", "{19FF41DB-F82A-41EB-9983-A94EFEEFCA04}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UsingStaticDirective", "UsingStaticDirective\UsingStaticDirective.csproj", "{19FF41DB-F82A-41EB-9983-A94EFEEFCA04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicTypes", "DynamicTypes\DynamicTypes.csproj", "{6CD73786-9234-43C7-98FC-887AFEAB5C72}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{19FF41DB-F82A-41EB-9983-A94EFEEFCA04}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19FF41DB-F82A-41EB-9983-A94EFEEFCA04}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19FF41DB-F82A-41EB-9983-A94EFEEFCA04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CD73786-9234-43C7-98FC-887AFEAB5C72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CD73786-9234-43C7-98FC-887AFEAB5C72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CD73786-9234-43C7-98FC-887AFEAB5C72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CD73786-9234-43C7-98FC-887AFEAB5C72}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
