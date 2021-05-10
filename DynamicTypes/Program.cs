@@ -8,6 +8,8 @@ namespace DynamicTypes
     /// <summary>
     /// https://github.com/IronLanguages/dlr
     /// https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/types/using-type-dynamic
+    /// https://channel9.msdn.com/blogs/matthijs/c-40-and-beyond-by-anders-hejlsberg
+    /// https://channel9.msdn.com/shows/Going+Deep/Inside-C-40-dynamic-type-optional-parameters-more-COM-friendly/
     /// </summary>
     class Program
     {
