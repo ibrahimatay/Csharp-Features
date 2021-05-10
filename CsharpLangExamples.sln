@@ -21,7 +21,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecordTypes", "RecordTypes\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UsingStaticDirective", "UsingStaticDirective\UsingStaticDirective.csproj", "{19FF41DB-F82A-41EB-9983-A94EFEEFCA04}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicTypes", "DynamicTypes\DynamicTypes.csproj", "{6CD73786-9234-43C7-98FC-887AFEAB5C72}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicTypes", "DynamicTypes\DynamicTypes.csproj", "{6CD73786-9234-43C7-98FC-887AFEAB5C72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TargetTypedNewExpressions", "TargetTypedNewExpressions\TargetTypedNewExpressions.csproj", "{CCF8C8EC-1D11-40DF-B37C-6B2E57DDF452}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{6CD73786-9234-43C7-98FC-887AFEAB5C72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6CD73786-9234-43C7-98FC-887AFEAB5C72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6CD73786-9234-43C7-98FC-887AFEAB5C72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCF8C8EC-1D11-40DF-B37C-6B2E57DDF452}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCF8C8EC-1D11-40DF-B37C-6B2E57DDF452}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCF8C8EC-1D11-40DF-B37C-6B2E57DDF452}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCF8C8EC-1D11-40DF-B37C-6B2E57DDF452}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
