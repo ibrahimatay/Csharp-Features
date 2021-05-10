@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections;
+using System.Collections.Generic;
 using System.Dynamic;
 
 namespace DynamicTypes
@@ -52,6 +54,23 @@ namespace DynamicTypes
             
             Console.WriteLine(DateTimeExtensions.ToUKFormat(today));
 
+            // List & Dictionary
+            List<dynamic> person08 = new List<dynamic>()
+            {
+                new Person("İbrahim", "ATAY"),
+                new Person("Gizem", "ATAY")
+            };
+
+            Dictionary<string, dynamic> dictionary = new Dictionary<string, dynamic>()
+            {
+                {"IA", new Person("İbrahim", "ATAY")},
+                {"GA", new Person("Gizem", "ATAY")}
+            };
+
+            if (IsDictionary(dictionary))
+            {
+                Console.WriteLine("dictionary is dynamic dictionary");
+            }
         }
 
         public static void Sum(int val01) { }
@@ -65,6 +84,14 @@ namespace DynamicTypes
         public static dynamic Bar() => 1;
 
         public object Baz() => new ExpandoObject(); // return by dlr object
+
+        public static bool IsDictionary(object o)
+        {
+            if (o == null) return false;
+            return o is IDictionary &&
+                   o.GetType().IsGenericType &&
+                   o.GetType().GetGenericTypeDefinition().IsAssignableFrom(typeof(Dictionary<,>));
+        }
     }
 
     class Person
