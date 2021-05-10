@@ -42,6 +42,16 @@ namespace DynamicTypes
 
             dynamic factory = Activator.CreateInstance(typeof(Factory));
             Console.WriteLine($"Factory is {factory.GetFactoryName()}");
+
+
+            // using Dynamic type with extension methods
+            dynamic today = DateTime.Today;
+            // give the runtime exception
+            //Console.WriteLine(today.ToUKFormat());
+            //Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: ''System.DateTime' does not contain a definition for 'ToUKFormat''
+            
+            Console.WriteLine(DateTimeExtensions.ToUKFormat(today));
+
         }
 
         public static void Sum(int val01) { }
@@ -72,5 +82,13 @@ namespace DynamicTypes
     class Factory
     {
         public string GetFactoryName() => "Big Factory!";
+    }
+
+    static class DateTimeExtensions
+    {
+        public static string ToUKFormat(this DateTime dateTime)
+        {
+            return dateTime.ToString("dd/MM/yyyy");
+        }
     }
 }
