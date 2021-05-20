@@ -27,6 +27,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TargetTypedNewExpressions",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AttributesOnLocalFunctions", "AttributesOnLocalFunctions\AttributesOnLocalFunctions.csproj", "{C137F4A8-4927-4637-A5B7-7D443ECC1C8A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopLevelStatements", "TopLevelStatements\TopLevelStatements.csproj", "{03BB24FE-ACAB-44EA-AE0D-287B82C1992D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{C137F4A8-4927-4637-A5B7-7D443ECC1C8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C137F4A8-4927-4637-A5B7-7D443ECC1C8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C137F4A8-4927-4637-A5B7-7D443ECC1C8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03BB24FE-ACAB-44EA-AE0D-287B82C1992D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03BB24FE-ACAB-44EA-AE0D-287B82C1992D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03BB24FE-ACAB-44EA-AE0D-287B82C1992D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03BB24FE-ACAB-44EA-AE0D-287B82C1992D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
