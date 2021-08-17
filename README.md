@@ -4,16 +4,4 @@
 
 C# programming are examples that I have created with the aim of following the language version. I follow the [language design] documentation.
 
-- Asynchronous Streams
-- Default Interface Methods
-- Numeric Literal Syntax Improvements
-- Pattern Matching
-- Static Local Functions
-- Static Namespace 
-- Tuple Types
-- Record Types
-- Dynamic Type
-- Global Using Directive
-
-
 [language design]: https://github.com/dotnet/csharplang
