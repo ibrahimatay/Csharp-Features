@@ -33,9 +33,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SourceGenerator", "SourceGe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SourceGenerator.Library", "SourceGenerator.Library\SourceGenerator.Library.csproj", "{A4956E1C-F7A0-4635-9B3E-24EA5D3F53E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlobalUsingDirective", "GlobalUsingDirective\GlobalUsingDirective.csproj", "{026652C9-9630-4C59-8DBB-87B4FD45C3EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GlobalUsingDirective", "GlobalUsingDirective\GlobalUsingDirective.csproj", "{026652C9-9630-4C59-8DBB-87B4FD45C3EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImmutableCollections", "ImmutableCollections\ImmutableCollections.csproj", "{ADDC339E-B64F-4C8E-819B-3A3B75EC1F55}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImmutableCollections", "ImmutableCollections\ImmutableCollections.csproj", "{ADDC339E-B64F-4C8E-819B-3A3B75EC1F55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InParameterModifier", "InParameterModifier\InParameterModifier.csproj", "{6D97BA92-A128-4099-9670-7A4EA11DEF09}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +113,10 @@ Global
 		{ADDC339E-B64F-4C8E-819B-3A3B75EC1F55}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ADDC339E-B64F-4C8E-819B-3A3B75EC1F55}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ADDC339E-B64F-4C8E-819B-3A3B75EC1F55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D97BA92-A128-4099-9670-7A4EA11DEF09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D97BA92-A128-4099-9670-7A4EA11DEF09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D97BA92-A128-4099-9670-7A4EA11DEF09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D97BA92-A128-4099-9670-7A4EA11DEF09}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
