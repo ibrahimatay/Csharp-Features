@@ -37,7 +37,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GlobalUsingDirective", "Glo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImmutableCollections", "ImmutableCollections\ImmutableCollections.csproj", "{ADDC339E-B64F-4C8E-819B-3A3B75EC1F55}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InParameterModifier", "InParameterModifier\InParameterModifier.csproj", "{6D97BA92-A128-4099-9670-7A4EA11DEF09}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InParameterModifier", "InParameterModifier\InParameterModifier.csproj", "{6D97BA92-A128-4099-9670-7A4EA11DEF09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NullCoalescing", "NullCoalescing\NullCoalescing.csproj", "{F3121611-0B36-476A-A7D5-BB0F5332499A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +119,10 @@ Global
 		{6D97BA92-A128-4099-9670-7A4EA11DEF09}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D97BA92-A128-4099-9670-7A4EA11DEF09}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D97BA92-A128-4099-9670-7A4EA11DEF09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3121611-0B36-476A-A7D5-BB0F5332499A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3121611-0B36-476A-A7D5-BB0F5332499A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3121611-0B36-476A-A7D5-BB0F5332499A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3121611-0B36-476A-A7D5-BB0F5332499A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
