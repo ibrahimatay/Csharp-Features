@@ -39,7 +39,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImmutableCollections", "Imm
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InParameterModifier", "InParameterModifier\InParameterModifier.csproj", "{6D97BA92-A128-4099-9670-7A4EA11DEF09}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NullCoalescing", "NullCoalescing\NullCoalescing.csproj", "{F3121611-0B36-476A-A7D5-BB0F5332499A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NullCoalescing", "NullCoalescing\NullCoalescing.csproj", "{F3121611-0B36-476A-A7D5-BB0F5332499A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GUIDsWithDifferentFormats", "GUIDsWithDifferentFormats\GUIDsWithDifferentFormats.csproj", "{8BE0FF56-34BC-4B76-B047-9C170046D0D8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -123,6 +125,10 @@ Global
 		{F3121611-0B36-476A-A7D5-BB0F5332499A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3121611-0B36-476A-A7D5-BB0F5332499A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3121611-0B36-476A-A7D5-BB0F5332499A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BE0FF56-34BC-4B76-B047-9C170046D0D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BE0FF56-34BC-4B76-B047-9C170046D0D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BE0FF56-34BC-4B76-B047-9C170046D0D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BE0FF56-34BC-4B76-B047-9C170046D0D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
