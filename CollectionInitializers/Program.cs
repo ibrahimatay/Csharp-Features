@@ -4,6 +4,10 @@ using System.Collections.Generic;
 
 namespace CollectionInitializers
 {
+    /// <summary>
+    /// https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/how-to-initialize-a-dictionary-with-a-collection-initializer
+    /// https://stackoverflow.com/questions/27244132/what-benefits-does-dictionary-initializers-add-over-collection-initializers
+    /// </summary>
     class Program
     {
         static void Main(string[] args)
