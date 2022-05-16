@@ -41,7 +41,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InParameterModifier", "InPa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NullCoalescing", "NullCoalescing\NullCoalescing.csproj", "{F3121611-0B36-476A-A7D5-BB0F5332499A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GUIDsWithDifferentFormats", "GUIDsWithDifferentFormats\GUIDsWithDifferentFormats.csproj", "{8BE0FF56-34BC-4B76-B047-9C170046D0D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GUIDsWithDifferentFormats", "GUIDsWithDifferentFormats\GUIDsWithDifferentFormats.csproj", "{8BE0FF56-34BC-4B76-B047-9C170046D0D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionInitializers", "CollectionInitializers\CollectionInitializers.csproj", "{161612CB-816F-4801-BD41-694B70787011}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +131,10 @@ Global
 		{8BE0FF56-34BC-4B76-B047-9C170046D0D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8BE0FF56-34BC-4B76-B047-9C170046D0D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8BE0FF56-34BC-4B76-B047-9C170046D0D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{161612CB-816F-4801-BD41-694B70787011}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{161612CB-816F-4801-BD41-694B70787011}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{161612CB-816F-4801-BD41-694B70787011}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{161612CB-816F-4801-BD41-694B70787011}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
