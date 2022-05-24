@@ -11,9 +11,12 @@ C# programming is an example that I have created with the aim of following the l
 * C# 10
   * [Global using directives](GlobalUsingDirective/)
 * C# 9
-  * Pattern matching enhancements
+  * [Pattern matching enhancements](PatternMatchingCsharp9/)
   * [Top-level statements](TopLevelStatements/)
 * C# 8
-  * Pattern matching enhancements
   * [Static local functions](StaticLocalFunctions/)
+  * [Null-coalescing assignment](NullCoalescing/)
+  * [Asynchronous streams](AsynchronousStreams/)
+  * [Pattern matching enhancements](PatternMatching/)
   * Using declarations
+
