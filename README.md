@@ -6,7 +6,7 @@ C# programming is an example that I have created with the aim of following the l
 
 [language design]: https://github.com/dotnet/csharplang
 
-## Version Features 
+## Version History
 
 * C# 10
   * Global using directives
