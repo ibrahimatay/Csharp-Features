@@ -13,10 +13,13 @@ C# programming is an example that I have created with the aim of following the l
 * C# 9
   * [Pattern matching enhancements](PatternMatchingCsharp9/)
   * [Top-level statements](TopLevelStatements/)
+  * [Records](RecordTypes/)
 * C# 8
   * [Static local functions](StaticLocalFunctions/)
   * [Null-coalescing assignment](NullCoalescing/)
   * [Asynchronous streams](AsynchronousStreams/)
   * [Pattern matching enhancements](PatternMatching/)
-  * Using declarations
-
+* C# 7
+  * [Tuples (Tuples Enhancement)](TupleTypes/)
+* C# 6
+  * [Using static](UsingStaticDirective/)
