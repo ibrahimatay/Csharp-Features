@@ -5,3 +5,14 @@
 C# programming is an example that I have created with the aim of following the language version. I follow the [language design] documentation.
 
 [language design]: https://github.com/dotnet/csharplang
+
+## What's new in C# Versions
+
+* C# 10
+  * Global using directives
+  * 
+* C# 9
+  * Pattern matching enhancements
+  * 
+* C# 8
+  * Pattern matching enhancements
