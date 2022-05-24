@@ -14,12 +14,16 @@ C# programming is an example that I have created with the aim of following the l
   * [Pattern matching enhancements](PatternMatchingCsharp9/)
   * [Top-level statements](TopLevelStatements/)
   * [Records](RecordTypes/)
+  * [Attributes on local functions](AttributesOnLocalFunctions/)
+  * [Target-typed new expressions](TargetTypedNewExpressions/)
 * C# 8
   * [Static local functions](StaticLocalFunctions/)
   * [Null-coalescing assignment](NullCoalescing/)
   * [Asynchronous streams](AsynchronousStreams/)
   * [Pattern matching enhancements](PatternMatching/)
+  * [default interface methods](DefaultInterfaceMethods/)
 * C# 7
   * [Tuples (Tuples Enhancement)](TupleTypes/)
+  * [Numeric literal syntax improvements](NumericLiteralSyntaxImprovements/)
 * C# 6
   * [Using static](UsingStaticDirective/)
