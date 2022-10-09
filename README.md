@@ -36,6 +36,8 @@ C# programming is an example that I have created with the aim of following the l
 * C# 4
   * [Dynamic types](DynamicTypes/)
 
+## Notes
+- [Which C# version is included in which framework version?](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/configure-language-version)
 
 
 
