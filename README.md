@@ -8,6 +8,9 @@ C# programming is an example that I have created with the aim of following the l
 
 ## Version History
 
+* C# 11
+  * [Raw string literals](RawStringLiterals/) 
+
 * C# 10
   * [Global using directive](GlobalUsingDirective/) 
 * C# 9
@@ -38,7 +41,7 @@ C# programming is an example that I have created with the aim of following the l
 
 ## Notes
 - [Which C# version is included in which framework version?](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/configure-language-version)
-
+- [What's new in C# 11](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-11)
 
 
 
