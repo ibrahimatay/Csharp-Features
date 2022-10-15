@@ -47,6 +47,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionInitializers", "C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RawStringLiterals", "RawStringLiterals\RawStringLiterals.csproj", "{FD7A8C82-7A53-44E5-BC9B-1DB1FCD2A777}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListPatternsMatching", "ListPatternsMatching\ListPatternsMatching.csproj", "{30021480-7E9B-49B1-B2A7-03A3EA69407F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +143,10 @@ Global
 		{FD7A8C82-7A53-44E5-BC9B-1DB1FCD2A777}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD7A8C82-7A53-44E5-BC9B-1DB1FCD2A777}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD7A8C82-7A53-44E5-BC9B-1DB1FCD2A777}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30021480-7E9B-49B1-B2A7-03A3EA69407F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30021480-7E9B-49B1-B2A7-03A3EA69407F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30021480-7E9B-49B1-B2A7-03A3EA69407F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30021480-7E9B-49B1-B2A7-03A3EA69407F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
