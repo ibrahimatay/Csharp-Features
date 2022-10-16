@@ -12,6 +12,7 @@ C# programming is an example that I have created with the aim of following the l
   * [Raw string literals](RawStringLiterals/) 
   * [List Patterns Matching](ListPatternsMatching/)
   * [Generic Attributes](GenericAttributes/)
+  * [File-local types](FileLocalTypes/)
 
 * C# 10
   * [Global using directive](GlobalUsingDirective/) 

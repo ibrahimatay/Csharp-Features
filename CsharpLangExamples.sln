@@ -51,6 +51,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListPatternsMatching", "Lis
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericAttributes", "GenericAttributes\GenericAttributes.csproj", "{737BBF2C-427C-4525-B8C6-87F6CBB74D6A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileLocalTypes", "FileLocalTypes\FileLocalTypes.csproj", "{A932FE2C-18A5-4FDD-980E-40950A0694D8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,10 @@ Global
 		{737BBF2C-427C-4525-B8C6-87F6CBB74D6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{737BBF2C-427C-4525-B8C6-87F6CBB74D6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{737BBF2C-427C-4525-B8C6-87F6CBB74D6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A932FE2C-18A5-4FDD-980E-40950A0694D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A932FE2C-18A5-4FDD-980E-40950A0694D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A932FE2C-18A5-4FDD-980E-40950A0694D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A932FE2C-18A5-4FDD-980E-40950A0694D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
