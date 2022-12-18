@@ -4,6 +4,14 @@
 
 namespace FileLocalTypes;
 
-Widget widget = new Widget();
+class Program
+{
+    public static void Main(string[] args)
+    {
+        //Widget widget = new Widget();
+    }
+}
+
+// Widget widget = new Widget();
 
 
