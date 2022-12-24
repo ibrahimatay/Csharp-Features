@@ -2,9 +2,7 @@
 
 ![.NET Core](https://github.com/ibrahimatay/CsharpLangExamples/workflows/.NET%20Core/badge.svg)
 
-C# programming is an example that I have created with the aim of following the language version. I follow the [language design] documentation.
-
-[language design]: https://github.com/dotnet/csharplang
+This repository contains examples of C# programming, with the goal of tracking and staying up-to-date with the latest versions of the language. These examples provide a comprehensive overview of the features and capabilities of C# and serve as a valuable resource for anyone looking to learn or improve their skills in this programming language.
 
 ## Version History
 
