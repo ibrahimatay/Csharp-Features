@@ -2,9 +2,7 @@
 
 ![.NET Core](https://github.com/ibrahimatay/CsharpLangExamples/workflows/.NET%20Core/badge.svg)
 
-C# programming is an example that I have created with the aim of following the language version. I follow the [language design] documentation.
-
-[language design]: https://github.com/dotnet/csharplang
+Examples of C# programming, with the goal of tracking and staying up-to-date with the latest versions of the language. These examples provide a comprehensive overview of the features and capabilities of C# and serve as a valuable resource for anyone looking to learn or improve their skills in this programming language.
 
 ## Version History
 
@@ -47,6 +45,7 @@ C# programming is an example that I have created with the aim of following the l
 ## Notes
 - [Which C# version is included in which framework version?](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/configure-language-version)
 - [What's new in C# 11](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-11)
+- [C# Language Features MindMap](https://linkdotnetblogstorage.azureedge.net/blog/20230205_CSharpMindMap/MindMap.svg)
 
 
 
