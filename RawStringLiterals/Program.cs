@@ -11,11 +11,11 @@ string Istanbul = """
 
 Console.WriteLine(Istanbul);
 
-var Longitude = 41.0082;
-var Latitude = 28.9784;
+var longitude = 41.0082;
+var latitude = 28.9784;
 
 var location = $$"""
-   You are at {{{Longitude}}, {{Latitude}}}
+   You are at {{{longitude}}, {{latitude}}}
    """;
 Console.WriteLine();
 Console.WriteLine(location);

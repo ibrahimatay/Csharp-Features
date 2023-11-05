@@ -55,6 +55,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileLocalTypes", "FileLocal
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticAbstractMembersInInterfaces", "StaticAbstractMembersInInterfaces\StaticAbstractMembersInInterfaces.csproj", "{64913A7B-C27B-4D73-BE50-03B7CC466162}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimaryConstructors", "PrimaryConstructors\PrimaryConstructors.csproj", "{161EE9F6-1074-4FAE-A38F-9871EE5BEDBF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -165,6 +167,10 @@ Global
 		{64913A7B-C27B-4D73-BE50-03B7CC466162}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64913A7B-C27B-4D73-BE50-03B7CC466162}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64913A7B-C27B-4D73-BE50-03B7CC466162}.Release|Any CPU.Build.0 = Release|Any CPU
+		{161EE9F6-1074-4FAE-A38F-9871EE5BEDBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{161EE9F6-1074-4FAE-A38F-9871EE5BEDBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{161EE9F6-1074-4FAE-A38F-9871EE5BEDBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{161EE9F6-1074-4FAE-A38F-9871EE5BEDBF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
