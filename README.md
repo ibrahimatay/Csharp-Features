@@ -8,6 +8,9 @@ Examples of C# programming, with the goal of tracking and staying up-to-date wit
 
 ## Version History
 
+* C# 12
+  * [Primary constructors](PrimaryConstructors/) 
+
 * C# 11
   * [Raw string literals](RawStringLiterals/) 
   * [List Patterns Matching](ListPatternsMatching/)
