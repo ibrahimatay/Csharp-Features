@@ -9,7 +9,8 @@ Examples of C# programming, with the goal of tracking and staying up-to-date wit
 ## Version History
 
 * C# 12
-  * [Primary constructors](PrimaryConstructors/) 
+  * [Primary constructors](PrimaryConstructors/)
+  * [Default values for parameters in lambda expressions](DefaultLambdaParameters/)
 
 * C# 11
   * [Raw string literals](RawStringLiterals/) 
