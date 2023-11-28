@@ -57,6 +57,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticAbstractMembersInInte
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimaryConstructors", "PrimaryConstructors\PrimaryConstructors.csproj", "{161EE9F6-1074-4FAE-A38F-9871EE5BEDBF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DefaultLambdaParameters", "DefaultLambdaParameters\DefaultLambdaParameters.csproj", "{14F8F02B-3066-408D-9330-25C54E49FD73}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -171,6 +173,10 @@ Global
 		{161EE9F6-1074-4FAE-A38F-9871EE5BEDBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{161EE9F6-1074-4FAE-A38F-9871EE5BEDBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{161EE9F6-1074-4FAE-A38F-9871EE5BEDBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14F8F02B-3066-408D-9330-25C54E49FD73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14F8F02B-3066-408D-9330-25C54E49FD73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14F8F02B-3066-408D-9330-25C54E49FD73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14F8F02B-3066-408D-9330-25C54E49FD73}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
