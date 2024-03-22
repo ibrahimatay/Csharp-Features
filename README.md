@@ -37,6 +37,7 @@ Examples of C# programming, with the goal of tracking and staying up-to-date wit
   * [Pattern matching](PatternMatching/) 
 * C# 7
   * [Attributes on local functions](AttributesOnLocalFunctions/) 
+  * [Local functions](LocalFunctionsCsharp7/) 
   * [Pattern matching](PatternMatching/) 
   * [Tuple types](TupleTypes/) 
   * [Numeric literal syntax improvement](NumericLiteralSyntaxImprovements/)
