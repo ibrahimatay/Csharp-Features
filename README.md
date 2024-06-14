@@ -8,6 +8,9 @@ Examples of C# programming, with the goal of tracking and staying up-to-date wit
 
 ## Version History
 
+* C# 13
+  * [Params Collections](ParamsCollections/)
+
 * C# 12
   * [Primary constructors](PrimaryConstructors/)
   * [Default values for parameters in lambda expressions](DefaultLambdaParameters/)
