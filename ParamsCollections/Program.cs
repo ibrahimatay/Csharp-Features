@@ -4,6 +4,13 @@
 // https://github.com/dotnet/csharplang/issues/7700
 // https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/collection-expressions
 
+
+void PrintWeekDays(params IEnumerable<string> list) 
+    => Console.WriteLine(string.Join(", ", list));
+
+PrintWeekDays("Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat");
+
+
 void PrintNumbers(params List<int>[] numbersLists) 
 {
     foreach(var numbers in numbersLists) 
