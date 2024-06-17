@@ -63,6 +63,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalFunctionsCsharp7", "Lo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParamsCollections", "ParamsCollections\ParamsCollections.csproj", "{5676D9D9-B99F-4B18-B6C6-2C0353655B07}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewEscapeSequence", "NewEscapeSequence\NewEscapeSequence.csproj", "{0138AED7-CAB5-4DBB-AEDF-9D933041FA14}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -189,6 +191,10 @@ Global
 		{5676D9D9-B99F-4B18-B6C6-2C0353655B07}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5676D9D9-B99F-4B18-B6C6-2C0353655B07}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5676D9D9-B99F-4B18-B6C6-2C0353655B07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0138AED7-CAB5-4DBB-AEDF-9D933041FA14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0138AED7-CAB5-4DBB-AEDF-9D933041FA14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0138AED7-CAB5-4DBB-AEDF-9D933041FA14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0138AED7-CAB5-4DBB-AEDF-9D933041FA14}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
