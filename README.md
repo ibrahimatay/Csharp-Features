@@ -12,6 +12,7 @@ Examples of C# programming, with the goal of tracking and staying up-to-date wit
   * [Params Collections](ParamsCollections/)
   * [New Escape Sequence](NewEscapeSequence/)
   * [Extension Types](ExtensionTypesCsharp13/)
+  * [The lock statement](TheLockStatement/)
 
 * C# 12
   * [Primary constructors](PrimaryConstructors/)
