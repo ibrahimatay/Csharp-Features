@@ -45,7 +45,9 @@ public class Singleton
         {
             if (_lock)
             {
-                if (instance == null)
+                // Logical patterns Csharp-9
+                // https://devblogs.microsoft.com/dotnet/c-9-0-on-the-record/#logical-patterns
+                if (instance is not null)
                 {
                     instance = new();
                     instance._currentDateTime = DateTime.Now;
