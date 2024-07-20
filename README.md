@@ -57,7 +57,6 @@ Examples of C# programming, with the goal of tracking and staying up-to-date wit
 
 ## Notes
 - [Which C# version is included in which framework version?](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/configure-language-version)
-- [What's new in C# 11](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-11)
 - [C# Language Features MindMap](https://linkdotnetblogstorage.azureedge.net/blog/20230205_CSharpMindMap/MindMap.svg)
 - [.NET release cadence](https://dotnet.microsoft.com/en-us/platform/support/policy/dotnet-core)
 - [Upgrade Assistant](https://dotnet.microsoft.com/en-us/platform/upgrade-assistant)
