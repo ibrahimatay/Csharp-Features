@@ -18,6 +18,11 @@ namespace StaticLocalFunctions
             Console.WriteLine(Extraction(x,y));
             
             static int Extraction(int val1, int val2) => val1 - val2;
+
+            void GenericMessage<Value>(Value x) => Console.WriteLine($"Value from generic message: {x}");
+
+            GenericMessage<int>(12);
+            GenericMessage<School>(new School("SAU"));
         }
 
         int Foo()
@@ -34,8 +39,5 @@ namespace StaticLocalFunctions
         }
     }
 
-    class School
-    {
-        public string SchoolName { get; set; }
-    }
+    record School(string SchoolName);
 }
