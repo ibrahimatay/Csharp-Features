@@ -42,38 +42,20 @@ class Temperature
 
 class Celsius : Temperature
 {
-    public Celsius(float degrees)
-    {
-        this.Degrees = degrees;
-    }
+    public Celsius(float degrees) => Degrees = degrees;
 
-    public static implicit operator Fahrenheit(Celsius c)
-    {
-        return new Fahrenheit((9.0f / 5.0f) * c.Degrees + 32);
-    }
+    public static implicit operator Fahrenheit(Celsius c) => new Fahrenheit((9.0f / 5.0f) * c.Degrees + 32);
 
-    public override string ToString()
-    {
-        return $"{Degrees} °C";
-    }
+    public override string ToString() => $"{Degrees} °C";
 }
 
 class Fahrenheit : Temperature
 {
-    public Fahrenheit(float degrees)
-    {
-        this.Degrees = degrees;
-    }
+    public Fahrenheit(float degrees) => Degrees = degrees;
+ 
+    public static implicit operator Celsius(Fahrenheit fahrenheit) => new Celsius((5.0f / 9.0f) * (fahrenheit.Degrees - 32));
 
-    public static implicit operator Celsius(Fahrenheit fahrenheit)
-    {
-        return new Celsius((5.0f / 9.0f) * (fahrenheit.Degrees - 32));
-    }
-
-    public override string ToString()
-    {
-        return $"{Degrees} °F";
-    }
+    public override string ToString() => $"{Degrees} °F";
 }
 
 class Product
@@ -82,15 +64,12 @@ class Product
     public string Name { get; set; }
     public decimal Price { get; set; }
 
-    public static implicit operator ProductDto(Product product)
+    public static implicit operator ProductDto(Product product) => new ProductDto
     {
-        return new ProductDto
-        {
-            Id = product.Id,
-            Name = product.Name,
-            Price = product.Price,
-        };
-    }
+        Id = product.Id,
+        Name = product.Name,
+        Price = product.Price,
+    };
 }
 
 class ProductDto
@@ -100,8 +79,5 @@ class ProductDto
 
     public decimal Price { get; set; }
 
-    public override string ToString()
-    {
-        return $"Id: {Id} Name: {Name} Price: {Price}";
-    }
+    public override string ToString() => $"Id: {Id} Name: {Name} Price: {Price}";
 }
