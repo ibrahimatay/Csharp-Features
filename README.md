@@ -24,6 +24,7 @@ Examples of C# programming, with the goal of tracking and staying up-to-date wit
   * [Generic Attributes](GenericAttributes/)
   * [File-local types](FileLocalTypes/)
   * [Static Abstract Members In Interfaces](StaticAbstractMembersInInterfaces/)
+  * [User-defined explicit and implicit conversion operators](UserDefinedConversionOperators/)
 
 * C# 10
   * [Global using directive](GlobalUsingDirective/) 
