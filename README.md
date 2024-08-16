@@ -53,8 +53,9 @@ Examples of C# programming, with the goal of tracking and staying up-to-date wit
 * C# 6
   * [Using static directive](UsingStaticDirective/) 
   * [Collection initializers](CollectionInitializers/)
-* C# 4
+* C# 4 & others
   * [Dynamic types](DynamicTypes/)
+  * [Multicast Delegates](MulticastDelegates/)
 
 ## Notes
 - [Which C# version is included in which framework version?](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/configure-language-version)
