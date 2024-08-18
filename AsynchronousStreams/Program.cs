@@ -4,6 +4,7 @@ using System.Net.Http;
 using System.Runtime.CompilerServices;
 using System.Threading;
 using System.Threading.Tasks;
+using System.Linq;
 
 namespace AsynchronousStreams
 {
@@ -16,13 +17,36 @@ namespace AsynchronousStreams
     {
         static async Task Main(string[] args)
         {
+           //await AsynchronousStreamsWithCancellationToken();
+           await PrintSequence();
+        }
+
+        static async IAsyncEnumerable<int> GenerateSequence()
+        {
+            foreach (var item in Enumerable.Range(0, 100))
+            {
+                await Task.Delay(100);
+                yield return item;
+            }
+        }
+
+        static async Task PrintSequence()
+        {
+            await foreach (var number in GenerateSequence())
+            {
+                Console.WriteLine(number);
+            }
+        }
+        
+        static async Task AsynchronousStreamsWithCancellationToken()
+        {
             var cancellationToken = new CancellationTokenSource(millisecondsDelay: 1000);
             await foreach (var result in GetTopSearchResults("dotnet").WithCancellation(cancellationToken.Token))
             {
                 Console.WriteLine(result);
             }
         }
-        
+
         static async IAsyncEnumerable<string> GetTopSearchResults(string term, [EnumeratorCancellation]CancellationToken token = default)
         {
             while (!token.IsCancellationRequested)
