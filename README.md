@@ -6,6 +6,8 @@ Examples of C# programming, with the goal of tracking and staying up-to-date wit
 
 ![image](/docs/Csharp-timeline.jpeg)
 
+****Note***: Continuous improvements and bug fixes are made within the repository to produce better solutions.*
+
 ## Version History
 
 * C# 13
