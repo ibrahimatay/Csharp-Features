@@ -60,6 +60,7 @@ Examples of C# programming, with the goal of tracking and staying up-to-date wit
 * C# 4 & others
   * [Dynamic types](DynamicTypes/)
   * [Multicast Delegates](MulticastDelegates/)
+  * [DebuggerDisplay](DebuggerDisplay/)
 
 ## Notes
 - [Which C# version is included in which framework version?](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/configure-language-version)
