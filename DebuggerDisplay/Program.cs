@@ -1,6 +1,10 @@
 ﻿using System.Diagnostics;
 
-// 
+// Tell the debugger what to show using the DebuggerDisplay Attribute (C#, Visual Basic, F#, C++/CLI)
+// https://learn.microsoft.com/en-us/visualstudio/debugger/using-the-debuggerdisplay-attribute?view=vs-2022
+
+//DebuggerDisplayAttribute Class
+// https://learn.microsoft.com/en-us/dotnet/api/system.diagnostics.debuggerdisplayattribute?view=net-8.0
 
 var person = new Person();
 
