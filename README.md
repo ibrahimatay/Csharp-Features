@@ -39,14 +39,14 @@ Examples of C# programming, with the goal of tracking and staying up-to-date wit
   * [Source generator](SourceGenerator/)
   * [Attributes on local functions](AttributesOnLocalFunctions/)
     
-* C# 8 is supported on .NET 2.1 
+* C# 8 is supported on .NET Standard 2.1, .NET Core 3.0-3.1 (September 2019)
   * [Asynchronous streams](AsynchronousStreams/) 
   * [Null-Coalescing operator](NullCoalescing/) 
   * [Default interface methods](DefaultInterfaceMethods/) 
   * [Static local functions](StaticLocalFunctions/)  
   * [Pattern matching](PatternMatching/)
     
-* C# 7
+* C# 7.1-2-3 is supported on .NET Framework 4.6-4.8, .NET Core 2.1-2.2 (May, 2018)
   * [Attributes on local functions](AttributesOnLocalFunctions/) 
   * [Local functions](LocalFunctionsCsharp7/) 
   * [Pattern matching](PatternMatching/) 
@@ -57,7 +57,7 @@ Examples of C# programming, with the goal of tracking and staying up-to-date wit
   * [ArrayPool](ArrayPool/)
   * [MemoryPool](MemoryPool/)
     
-* C# 6
+* C# 6 is supported on .NET Framework 4.6, .NET Core 1.0-1.1 (July, 2015)
   * [Using static directive](UsingStaticDirective/) 
   * [Collection initializers](CollectionInitializers/)
     
