@@ -10,17 +10,17 @@ Examples of C# programming, with the goal of tracking and staying up-to-date wit
 
 ## Version History
 
-* C# 13
+* C# 13 is supported on .NET 9 (September, 2024)
   * [Params Collections](ParamsCollections/)
   * [New Escape Sequence](NewEscapeSequence/)
   * [Extension Types](ExtensionTypesCsharp13/)
   * [The lock statement](TheLockStatement/)
 
-* C# 12
+* C# 12 is supported on .NET 8 (November, 2023) 
   * [Primary constructors](PrimaryConstructors/)
   * [Default values for parameters in lambda expressions](DefaultLambdaParameters/)
 
-* C# 11
+* C# 11 is supported on .NET 7 (November, 2022)
   * [Raw string literals](RawStringLiterals/) 
   * [List Patterns Matching](ListPatternsMatching/)
   * [Generic Attributes](GenericAttributes/)
@@ -28,22 +28,24 @@ Examples of C# programming, with the goal of tracking and staying up-to-date wit
   * [Static Abstract Members In Interfaces](StaticAbstractMembersInInterfaces/)
   * [User-defined explicit and implicit conversion operators](UserDefinedConversionOperators/)
 
-* C# 10
+* C# 10 is supported on .NET 6 (November, 2021)
   * [Global using directive](GlobalUsingDirective/) 
 
-* C# 9
+* C# 9 is supported on .NET 5 (November, 2020)
   * [Target-typed new expressions ](TargetTypedNewExpressions/) 
   * [Pattern matching](PatternMatchingCsharp9/) 
   * [Record types](RecordTypes/) 
   * [Top-level statements](TopLevelStatements/) 
   * [Source generator](SourceGenerator/)
-  * [Attributes on local functions](AttributesOnLocalFunctions/) 
-* C# 8
+  * [Attributes on local functions](AttributesOnLocalFunctions/)
+    
+* C# 8 is supported on .NET 2.1 
   * [Asynchronous streams](AsynchronousStreams/) 
   * [Null-Coalescing operator](NullCoalescing/) 
   * [Default interface methods](DefaultInterfaceMethods/) 
   * [Static local functions](StaticLocalFunctions/)  
-  * [Pattern matching](PatternMatching/) 
+  * [Pattern matching](PatternMatching/)
+    
 * C# 7
   * [Attributes on local functions](AttributesOnLocalFunctions/) 
   * [Local functions](LocalFunctionsCsharp7/) 
@@ -54,9 +56,11 @@ Examples of C# programming, with the goal of tracking and staying up-to-date wit
   * [in parameter modifier](InParameterModifier/)
   * [ArrayPool](ArrayPool/)
   * [MemoryPool](MemoryPool/)
+    
 * C# 6
   * [Using static directive](UsingStaticDirective/) 
   * [Collection initializers](CollectionInitializers/)
+    
 * C# 4 & others
   * [Dynamic types](DynamicTypes/)
   * [Multicast Delegates](MulticastDelegates/)
