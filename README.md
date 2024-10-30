@@ -15,6 +15,11 @@ Examples of C# programming, with the goal of tracking and staying up-to-date wit
   * [New Escape Sequence](NewEscapeSequence/Program.cs)
   * [Extension Types](ExtensionTypesCsharp13/Program.cs)
   * [The lock statement](TheLockStatement/Program.cs)
+  * API Improvements
+    * [New LINQ Methods](NewLINQMethodsCsharp13/Program.cs)
+      * `Index()` 
+      * `CountBy()` 
+      * `AggregateBy()`
 
 * C# 12 is supported on .NET 8 (November, 2023) 
   * [Primary constructors](PrimaryConstructors/Program.cs)
