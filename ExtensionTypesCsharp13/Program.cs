@@ -1,4 +1,6 @@
-﻿
+﻿// Extension types
+// https://github.com/dotnet/csharplang/blob/main/proposals/extensions.md
+
 // C# 3.0 Version
 public static class StringExtensionsCsharp3
 {
