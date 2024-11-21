@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        dotnet: [ '9.0.0' ]
+        dotnet: [ '9.0.100' ]
     steps:
     - uses: actions/checkout@v2
     - name: Setup .NET Core
