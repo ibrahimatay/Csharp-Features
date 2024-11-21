@@ -6,6 +6,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <LangVersion>preview</LangVersion>
+    <StartupObject>NewLINQMethodsCsharp13.Program</StartupObject>
   </PropertyGroup>
 
 </Project>

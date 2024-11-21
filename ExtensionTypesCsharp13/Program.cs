@@ -1,6 +1,8 @@
 ﻿// Extension types
 // https://github.com/dotnet/csharplang/blob/main/proposals/extensions.md
 
+Console.WriteLine("Test 1");
+
 // C# 3.0 Version
 public static class StringExtensionsCsharp3
 {
@@ -11,6 +13,7 @@ public static class StringExtensionsCsharp3
 }
 
 // C# 13 Version
+/*
 implicit extension StringExtensionsCsharp13 for string
 {
     public bool IsNotNullOrEmptyV1()
@@ -34,3 +37,4 @@ public implicit extension Bits for Uint64
     
     static ulong Mask(int index) => `ul << index;
 }
+*/

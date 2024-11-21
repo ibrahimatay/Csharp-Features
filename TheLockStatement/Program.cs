@@ -13,6 +13,7 @@ Console.WriteLine(instance.CurrentDateTime);
 // What is the difference between Task.Run() and Task.Factory.StartNew()
 // https://stackoverflow.com/questions/38423472/what-is-the-difference-between-task-run-and-task-factory-startnew
 
+#pragma warning disable CS4014 // Because this call is not awaited, execution of the current method continues before the call is completed
 Task.Factory.StartNew(() =>
 {
     Singleton instance2 = Singleton.Instance;
@@ -30,11 +31,12 @@ Task.Factory.StartNew(() =>
         Console.WriteLine(instance2.CurrentDateTime);
     }, TaskCreationOptions.AttachedToParent).Start();
 });
+#pragma warning restore CS4014 // Because this call is not awaited, execution of the current method continues before the call is completed
 
 
 public class Singleton
 {
-    private readonly System.Threading.Lock _lock = new();
+    private static readonly System.Threading.Lock _lock = new();
     private static Singleton instance = null;
     public DateTime CurrentDateTime => _currentDateTime;
     private DateTime _currentDateTime;
@@ -43,7 +45,7 @@ public class Singleton
     {
         get
         {
-            if (_lock)
+            lock (_lock)
             {
                 // Logical patterns Csharp-9
                 // https://devblogs.microsoft.com/dotnet/c-9-0-on-the-record/#logical-patterns
