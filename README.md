@@ -41,7 +41,7 @@ Examples of C# programming, with the goal of tracking and staying up-to-date wit
   * [Pattern matching](PatternMatchingCsharp9/Program.cs) 
   * [Record types](RecordTypes/Program.cs) 
   * [Top-level statements](TopLevelStatements/Program.cs) 
-  * [Source generator](SourceGenerator/Program.cs)
+  * [Source generator](SourceGenerator/)
   * [Attributes on local functions](AttributesOnLocalFunctions/Program.cs)
     
 * C# 8 is supported on .NET Standard 2.1, .NET Core 3.0-3.1 (September 2019)
