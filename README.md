@@ -2,9 +2,9 @@
 
 ![.NET Core](https://github.com/ibrahimatay/CsharpLangExamples/workflows/.NET%20Core/badge.svg)
 
-Examples of C# programming, with the goal of tracking and staying up-to-date with the latest versions of the language. These examples provide a comprehensive overview of the features and capabilities of C# and serve as a valuable resource for anyone looking to learn or improve their skills in this programming language.
+Examples of C# programming, to track and stay up-to-date with the latest language versions. These examples provide a comprehensive overview of the features and capabilities of C# and serve as a valuable resource for anyone looking to learn or improve their skills in this programming language.
 
-![image](/docs/Csharp-timeline.jpeg)
+![image](/docs/Csharp-timeline_v2.jpeg)
 
 ****Note***: Continuous improvements and bug fixes are made within the repository to produce better solutions.*
 
