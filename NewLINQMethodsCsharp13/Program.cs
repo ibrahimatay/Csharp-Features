@@ -1,23 +1,41 @@
 ﻿namespace NewLINQMethodsCsharp13
 {
-    public record Person(string name);
+    record Student (string Name, string Score);
     public class Program
     {
         public static void Main(string[] args)
         {
-            var persons = new List<Person>() { new("p1"), new("p2") };
+            Student[] students = [
+                new("Alice", "A"),
+                new("Bob", "B"),
+                new("Charlie", "C"),
+                new("David", "B"),
+                new("Eve", "A")
+            ];
 
-            // Using a for loop
-            for (int i = 0; i < persons.Count; i++)
+            Console.WriteLine("----------Index-----------");
+            foreach (var (index, student) in students.Index())
             {
-                var person = persons[i];
-                Console.WriteLine($"Index: {i}, Person:{person}");
+                Console.WriteLine($"Student {index}: {student.Name}");
             }
 
-            // Using the new .NET 9 Index method.
-            foreach ((int index, Person person) in persons.Index())
+            Console.WriteLine();
+            Console.WriteLine("----------CountBy-----------");
+            Console.WriteLine();
+            foreach (var (score, count) in students.CountBy(student => student.Score))
             {
-                Console.WriteLine($"Index: {index}, Person:{person}");
+                Console.WriteLine($"Students with a {score}-score: {count}");
+            }
+            
+            Console.WriteLine();
+            Console.WriteLine("----------AggregateBy-----------");
+            Console.WriteLine();
+            foreach (var (score, studentGroup) in students.AggregateBy(
+                         keySelector => keySelector.Score,
+                         seed: new List<Student>(),
+                         func: (group, student)=> [..group,  student]))
+            {
+                Console.WriteLine($"Students with a {score}-score: {string.Join(", ", studentGroup)}");
             }
         }
     }
