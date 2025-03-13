@@ -93,6 +93,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoslynAnalyzer.Tests", "Ros
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Roslyn Analyzer", "Roslyn Analyzer", "{A20B336B-C5A8-46EC-A4D3-843C257A4809}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewLINQMethodsCsharp10", "NewLINQMethodsCsharp10\NewLINQMethodsCsharp10.csproj", "{D7C23C3C-8B11-4E31-830F-17CD9670D49E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -271,6 +273,10 @@ Global
 		{9C9BBC19-CDBA-4851-B3D8-8C383F4742FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C9BBC19-CDBA-4851-B3D8-8C383F4742FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C9BBC19-CDBA-4851-B3D8-8C383F4742FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7C23C3C-8B11-4E31-830F-17CD9670D49E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7C23C3C-8B11-4E31-830F-17CD9670D49E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7C23C3C-8B11-4E31-830F-17CD9670D49E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7C23C3C-8B11-4E31-830F-17CD9670D49E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
