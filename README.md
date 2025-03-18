@@ -4,8 +4,6 @@
 
 Examples of C# programming, to track and stay up-to-date with the latest language versions. These examples provide a comprehensive overview of the features and capabilities of C# and serve as a valuable resource for anyone looking to learn or improve their skills in this programming language.
 
-![image](/docs/Csharp-timeline_v2.jpeg)
-
 ****Note***: Continuous improvements and bug fixes are made within the repository to produce better solutions.*
 
 ## Version History
