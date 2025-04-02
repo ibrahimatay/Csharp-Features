@@ -23,8 +23,13 @@ Examples of C# programming, to track and stay up-to-date with the latest languag
   * [CreateUnboundedPrioritized](CreateUnboundedPrioritized/Program.cs)
   
 * C# 12 is supported on .NET 8 (November, 2023) 
-  * [Primary constructors](PrimaryConstructors/Program.cs)
-  * [Default values for parameters in lambda expressions](DefaultLambdaParameters/Program.cs)
+
+|                                          Feature                                          | Description                                                                                                                                                                                                                                                                   |
+|:-----------------------------------------------------------------------------------------:|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|                        [Keyed Services](KeyedServices/Program.cs)                         | The Keyed Service feature in ASP.NET Core allows multiple implementations of the same interface (such as SMS and Email services) to be registered with unique keys and resolved dynamically at runtime based on those keys.                                                   |
+|                  [Primary constructors](PrimaryConstructors/Program.cs)                   | A primary constructor defines parameters directly in the class signature, promoting them into the instance scope. This eliminates the need for explicit field declarations and assignments within the constructor, simplifying the code and enabling more direct data access. |
+| [Default values for parameters in lambda expressions](DefaultLambdaParameters/Program.cs) |Lambda expressions enable flexible parameter handling using default arguments and the params keyword, eliminating the need for method overloading. Variadic operations can be handled through single expression definitions.                                                                                                                                                                                                                                                                               |
+
 
 * C# 11 is supported on .NET 7 (November, 2022)
   * [Raw string literals](RawStringLiterals/Program.cs) 
