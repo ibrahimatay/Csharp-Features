@@ -11,17 +11,16 @@ Examples of C# programming, to track and stay up-to-date with the latest languag
 ## Version History
 
 * C# 13 is supported on .NET 9 (September, 2024)
-  * [Params Collections](ParamsCollections/Program.cs)
-  * [New Escape Sequence](NewEscapeSequence/Program.cs)
-  * [Extension Types](ExtensionTypesCsharp13/Program.cs)
-  * [The lock statement](TheLockStatement/Program.cs)
-  * API Improvements
-    * [New LINQ Methods](NewLINQMethodsCsharp13/Program.cs)
-      * `Index()` 
-      * `CountBy()` 
-      * `AggregateBy()`
-  * [CreateUnboundedPrioritized](CreateUnboundedPrioritized/Program.cs)
-  
+ 
+| Feature                                                                                                       | Description                                                                                                                                                                                                                        |
+|---------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Params Collections](ParamsCollections/Program.cs)                                                            | Demonstrates data passing to functions via the params keyword using `IEnumerable`, `List<T>[]`, and `ReadOnlySpan<T>`. Offers a clean and performance-oriented approach for collection-based data processing scenarios.            |
+| [New Escape Sequence](NewEscapeSequence/Program.cs)                                                           | Uses `\e`, `\u001B`, and `\x1B` to emit ANSI escape codes for styled console output (underline, blink, RGB color). Demonstrates safer alternatives to `\x1B` and dynamic escape code generation.                                          |
+| [Extension Types](ExtensionTypesCsharp13/Program.cs)                                                          | Demonstrates extension methods in C# 3.0 and the upcoming C# 13. Highlights the new implicit extension feature, enabling scoped instance and static member extensions. It includes bitwise accessors using modern syntax for `ulong`. |
+| [The lock statement](TheLockStatement/Program.cs)                                                             | Singleton pattern with concurrency control using `System.Threading.Lock`. Demonstrates task lifecycle management via nested Task instances with `AttachedToParent` and instance checks using C# 9 `is not null` pattern matching.      |
+| [New LINQ Methods](NewLINQMethodsCsharp13/Program.cs) <br>* `Index()` <br>* `CountBy()` <br>* `AggregateBy()` |Demonstrates advanced LINQ operations using `Index`, `CountBy`, and `AggregateBy` extensions for indexed iteration, grouped counting, and key-based aggregation over collections. Enables more expressive and composable query patterns.                                                                                                                                                                                                                                    |
+| [CreateUnboundedPrioritized](CreateUnboundedPrioritized/Program.cs)                                           |Introduced in .NET 9, `Channel.CreateUnboundedPrioritized` enables a priority-based, unbounded, thread-safe message queue. This sample demonstrates prioritized, asynchronous message processing—ideal for real-time, concurrent workloads.                                                                                                                                                                                                                                    |
+
 * C# 12 is supported on .NET 8 (November, 2023) 
 
 |                                          Feature                                          | Description                                                                                                                                                                                                                                                                   |
