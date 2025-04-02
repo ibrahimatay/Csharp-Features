@@ -8,7 +8,7 @@ Here are examples of C# programming to help you stay up-to-date with the latest 
 
 ## Version History
 
-* C# 13 is supported on .NET 9 (September 2024)
+### C# 13 is supported on .NET 9 (September 2024)
  
 | Feature                                                                                                       | Description                                                                                                                                                                                                                        |
 |---------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -18,8 +18,7 @@ Here are examples of C# programming to help you stay up-to-date with the latest 
 | [The lock statement](TheLockStatement/Program.cs)                                                             | Singleton pattern with concurrency control using `System.Threading.Lock`. Demonstrates task lifecycle management via nested Task instances with `AttachedToParent` and instance checks using C# 9 `is not null` pattern matching.      |
 | [New LINQ Methods](NewLINQMethodsCsharp13/Program.cs) <br>* `Index()` <br>* `CountBy()` <br>* `AggregateBy()` |Demonstrates advanced LINQ operations using `Index`, `CountBy`, and `AggregateBy` extensions for indexed iteration, grouped counting, and key-based aggregation over collections. Enables more expressive and composable query patterns.                                                                                                                                                                                                                                    |
 | [CreateUnboundedPrioritized](CreateUnboundedPrioritized/Program.cs)                                           |Introduced in .NET 9, `Channel.CreateUnboundedPrioritized` enables a priority-based, unbounded, thread-safe message queue. This sample demonstrates prioritized, asynchronous message processing—ideal for real-time, concurrent workloads.                                                                                                                                                                                                                                    |
-
-* C# 12 is supported on .NET 8 (November 2023) 
+### C# 12 is supported on .NET 8 (November 2023) 
 
 |                                          Feature                                          | Description                                                                                                                                                                                                                                                                   |
 |--------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
