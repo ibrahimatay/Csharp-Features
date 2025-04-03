@@ -85,8 +85,8 @@ Here are examples of C# programming to help you stay up-to-date with the latest 
 
 | Feature                                                       | Description                                                                                                                                                                                                                                                                   |
 |---------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|[Using static directive](UsingStaticDirective/Program.cs)     |    |
-|[Collection initializers](CollectionInitializers/Program.cs)    |    |
+|[Using static directive](UsingStaticDirective/Program.cs)     |Shows how the `using static` directive works. Enables direct access to static members from `Math`, `Console`, and a custom utility class, improving code readability and simplicity.    |
+|[Collection initializers](CollectionInitializers/Program.cs)    |Highlights the use of collection and index initializers to improve readability and conciseness when initializing `Hashtable` and `Dictionary` objects with key-value pairs."    |
 
 ### C# 4 & others
 
