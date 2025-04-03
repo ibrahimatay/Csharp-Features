@@ -90,11 +90,11 @@ Here are examples of C# programming to help you stay up-to-date with the latest 
 
 ### C# 4 & others
 
-| Feature                                                       | Description                                                                                                                                                                                                                                                                   |
-|---------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|[Dynamic types](DynamicTypes/Program.cs)    |  |
-|[Multicast Delegates](MulticastDelegates/Program.cs)    |  |
-|[DebuggerDisplay](DebuggerDisplay/Program.cs)    |  |
+| Feature                                                       | Description                                                                                                                                                                                                        |
+|---------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|[Dynamic types](DynamicTypes/Program.cs)    | Investigates dynamic types using `dynamic`, `ExpandoObject`, and `Activator.CreateInstance`; compares runtime and compile-time behaviors. Includes extension methods, overload resolution, and dynamic collections. |
+|[Multicast Delegates](MulticastDelegates/Program.cs)    | Demonstrates combining multiple methods into a single delegate instance using multicast delegates. Suitable for event handling, callback chaining, and modular invocation patterns.                                |
+|[DebuggerDisplay](DebuggerDisplay/Program.cs)    | Uses `DebuggerDisplay` to customize object visualization in the debugger. Displays a formatted summary during debugging instead of relying on `ToString()`, reducing unnecessary property expansions.              |
 
 ## Notes
 - [Which C# version is included in which framework version?](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/configure-language-version)
