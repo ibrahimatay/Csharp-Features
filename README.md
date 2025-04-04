@@ -68,17 +68,17 @@ Here are examples of C# programming to help you stay up-to-date with the latest 
 
 ### C# 7.1-2-3 is supported on .NET Framework 4.6-4.8, .NET Core 2.1-2.2 (May 2018)
 
-| Feature                                                                           | Description                                                                                                                                                                                                                                                                   |
-|-----------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Attributes on local functions](AttributesOnLocalFunctions/Program.cs)            |         |
-| [Local functions](LocalFunctionsCsharp7/Program.cs)                               |         |
-| [Pattern matching](PatternMatching/Program.cs)                                    |         |
-| [Tuple types](TupleTypes/Program.cs)                                              |         |
-| [Numeric literal syntax improvement](NumericLiteralSyntaxImprovements/Program.cs) |         |
-| [Immutable collections](ImmutableCollections/Program.cs)                          |         |
-| [in parameter modifier](InParameterModifier/Program.cs)                           |         |
-| [ArrayPool](ArrayPool/Program.cs)                                                 |         |
-| [MemoryPool](MemoryPool/Program.cs)                                               |         |
+| Feature                                                                            | Description                                                                                                                                                                                                                                                                  |
+|------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Attributes on local functions](AttributesOnLocalFunctions/Program.cs)             |Adds conditional compilation support to local functions via `Conditional` attributes. Also defines a custom return value attribute and retrieves its metadata at runtime using reflection.|
+| [Local functions](LocalFunctionsCsharp7/Program.cs)                                |An example that improves encapsulation and readability using local functions. Functions defined within `Main` remain inaccessible from outside, preserving control and context. Calculations are managed within the local scope.         |
+| [Pattern matching](PatternMatching/Program.cs)                                     |Pattern matching is applied to handle logic specific to different financial instrument types using `switch` expressions and tuple-based decision structures. Volatility analysis and price check scenarios are modeled with technical examples.         |
+| [Tuple types](TupleTypes/Program.cs)                                               |A comprehensive example on tuple comparison, deconstruction, nesting, and nullable support, along with their use in function parameters and return types. Also includes integration with object initializers.         |
+| [Numeric literal syntax improvement](NumericLiteralSyntaxImprovements/Program.cs)  |Includes support for digit separators (`_`) and binary literals (`0b`) to improve readability in numeric literals. This syntax enhances code maintainability and accuracy by making large numbers easier to parse.         |
+| [Immutable collections](ImmutableCollections/Program.cs)                           |An example application showing how `IReadOnlyList<T>` and `IReadOnlyDictionary<TKey, TValue>` can be used to define immutable collections and protect them from reinitialization and modification.         |
+| [in parameter modifier](InParameterModifier/Program.cs)                            |A minimal example showing how to use the `in` parameter modifier for read-only passing of reference types and leveraging immutable structures for performance benefits.         |
+| [ArrayPool](ArrayPool/Program.cs)                                                  |Contains three examples that optimize memory management using ArrayPool<T>: returning arrays to the shared pool with and without clearing, and using a custom cached pool. Suitable for high-performance temporary array allocation.         |
+| [MemoryPool](MemoryPool/Program.cs)                                                |Efficiently rents and manages memory using `MemoryPool<T>` and `IMemoryOwner<T>`, enabling low-GC, high-performance scenarios with explicit buffer lifecycle control via `Dispose`.         |
 
 
 ### C# 6 is supported on .NET Framework 4.6, .NET Core 1.0-1.1 (July 2015)
