@@ -47,46 +47,46 @@ Here are examples of C# programming to help you stay up-to-date with the latest 
 
 ### C# 9 is supported on .NET 5 (November 2020)
 
-| Feature                                                                                                      | Description                                                                                                                                                                                                                                                                   |
-|--------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|[Target-typed new expressions ](TargetTypedNewExpressions/Program.cs)      |   |
-|[Pattern matching](PatternMatchingCsharp9/Program.cs)                                                                            |   |
-|[Record types](RecordTypes/Program.cs)                                                                            |   |
-|[Top-level statements](TopLevelStatements/Program.cs)                                                                            |   |
-|[Source generator](SourceGenerator/)                                                                           |   |
-|[Attributes on local functions](AttributesOnLocalFunctions/Program.cs)                                                                           |   |
+| Feature                                                                | Description                                                                                                                                                                                                                                                                   |
+|------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Target-typed new expressions ](TargetTypedNewExpressions/Program.cs)  |Usage of target-typed `new()` with constructors, object initializers, collections, records, and tuples. Covers instantiation syntax, member assignment, and common limitations in type inference.   |
+| [Pattern matching](PatternMatchingCsharp9/Program.cs)                  |Advanced pattern matching with type checks, relational patterns, and logical combinations in control flow and extension methods.   |
+| [Record types](RecordTypes/Program.cs)                                 |Includes modern data modeling approaches with record types such as immutability, value-based equality, deconstruction, and cloning. Object copying with `with` expression and inheritance support are also illustrated.   |
+| [Top-level statements](TopLevelStatements/Program.cs)                  |A minimal C# app built with top-level statements. Showcases argument handling and a static helper method for streamlined execution without explicit entry point declarations.   |
+| [Source generator](SourceGenerator/)                                   |An example of compile-time code generation using the Source Generator architecture. Implements `ISourceGenerator` with `Execute` and `Initialize` methods based on the Roslyn infrastructure.   |
+| [Attributes on local functions](AttributesOnLocalFunctions/Program.cs) |An example code structure that explores how custom attributes applied to local functions and return values can be analyzed at runtime, along with the use of `Conditional` attributes for conditional compilation.   |
  
 ### C# 8 is supported on .NET Standard 2.1, .NET Core 3.0-3.1 (September 2019)
 
-| Feature                                                       | Description                                                                                                                                                                                                                                                                   |
-|---------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Asynchronous streams](AsynchronousStreams/Program.cs)        |   |
-| [Null-Coalescing operator](NullCoalescing/Program.cs)         |   |
+| Feature                                                         | Description                                                                                                                                                                                                                                                                   |
+|-----------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Asynchronous streams](AsynchronousStreams/Program.cs)          |   |
+| [Null-Coalescing operator](NullCoalescing/Program.cs)           |   |
 | [Default interface methods](DefaultInterfaceMethods/Program.cs) |   |
-| [Static local functions](StaticLocalFunctions/Program.cs)     |   |
-|[Pattern matching](PatternMatching/Program.cs)                                                               |   |
+| [Static local functions](StaticLocalFunctions/Program.cs)       |   |
+| [Pattern matching](PatternMatching/Program.cs)                  |   |
 
 ### C# 7.1-2-3 is supported on .NET Framework 4.6-4.8, .NET Core 2.1-2.2 (May 2018)
 
-| Feature                                                       | Description                                                                                                                                                                                                                                                                   |
-|---------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|[Attributes on local functions](AttributesOnLocalFunctions/Program.cs)        |         |
-|[Local functions](LocalFunctionsCsharp7/Program.cs)        |         |
-|[Pattern matching](PatternMatching/Program.cs)        |         |
-|[Tuple types](TupleTypes/Program.cs)        |         |
-|[Numeric literal syntax improvement](NumericLiteralSyntaxImprovements/Program.cs)       |         |
-|[Immutable collections](ImmutableCollections/Program.cs)       |         |
-|[in parameter modifier](InParameterModifier/Program.cs)       |         |
-|[ArrayPool](ArrayPool/Program.cs)       |         |
-|[MemoryPool](MemoryPool/Program.cs)       |         |
+| Feature                                                                           | Description                                                                                                                                                                                                                                                                   |
+|-----------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Attributes on local functions](AttributesOnLocalFunctions/Program.cs)            |         |
+| [Local functions](LocalFunctionsCsharp7/Program.cs)                               |         |
+| [Pattern matching](PatternMatching/Program.cs)                                    |         |
+| [Tuple types](TupleTypes/Program.cs)                                              |         |
+| [Numeric literal syntax improvement](NumericLiteralSyntaxImprovements/Program.cs) |         |
+| [Immutable collections](ImmutableCollections/Program.cs)                          |         |
+| [in parameter modifier](InParameterModifier/Program.cs)                           |         |
+| [ArrayPool](ArrayPool/Program.cs)                                                 |         |
+| [MemoryPool](MemoryPool/Program.cs)                                               |         |
 
 
 ### C# 6 is supported on .NET Framework 4.6, .NET Core 1.0-1.1 (July 2015)
 
-| Feature                                                       | Description                                                                                                                                                                                                                                                                   |
-|---------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|[Using static directive](UsingStaticDirective/Program.cs)     |Shows how the `using static` directive works. Enables direct access to static members from `Math`, `Console`, and a custom utility class, improving code readability and simplicity.    |
-|[Collection initializers](CollectionInitializers/Program.cs)    |Highlights the use of collection and index initializers to improve readability and conciseness when initializing `Hashtable` and `Dictionary` objects with key-value pairs."    |
+| Feature                                                      | Description                                                                                                                                                                                                                                                                   |
+|--------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Using static directive](UsingStaticDirective/Program.cs)    |Shows how the `using static` directive works. Enables direct access to static members from `Math`, `Console`, and a custom utility class, improving code readability and simplicity.    |
+| [Collection initializers](CollectionInitializers/Program.cs) |Highlights the use of collection and index initializers to improve readability and conciseness when initializing `Hashtable` and `Dictionary` objects with key-value pairs."    |
 
 ### C# 4 & others
 
