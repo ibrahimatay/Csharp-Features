@@ -60,11 +60,11 @@ Here are examples of C# programming to help you stay up-to-date with the latest 
 
 | Feature                                                         | Description                                                                                                                                                                                                                                                                   |
 |-----------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Asynchronous streams](AsynchronousStreams/Program.cs)          |   |
-| [Null-Coalescing operator](NullCoalescing/Program.cs)           |   |
-| [Default interface methods](DefaultInterfaceMethods/Program.cs) |   |
-| [Static local functions](StaticLocalFunctions/Program.cs)       |   |
-| [Pattern matching](PatternMatching/Program.cs)                  |   |
+| [Asynchronous streams](AsynchronousStreams/Program.cs)          |Asynchronous data flow is handled using `IAsyncEnumerable` for sequential data generation and consumption. With `CancellationToken` support, external data fetching is managed seamlessly and with controlled interruption.   |
+| [Null-Coalescing operator](NullCoalescing/Program.cs)           |Safe reference operations, default value assignment, exception throwing, and `ToString` behavior are illustrated using null-coalescing and null-check operators. Null-safety is tested with nullable reference types and generic methods.   |
+| [Default interface methods](DefaultInterfaceMethods/Program.cs) |Default method bodies in interfaces, overridable behaviors, and multiple implementation scenarios are explored. Additionally, extensibility is examined through virtual methods and constructor variations.   |
+| [Static local functions](StaticLocalFunctions/Program.cs)       |Static local functions operate with low memory overhead by not capturing surrounding variables. Generic local functions are also supported, enabling calls with type parameters and usage with composite data structures.   |
+| [Pattern matching](PatternMatching/Program.cs)                  |Control flow and decision logic over polymorphic data types are modeled using various pattern matching techniques (type patterns, property patterns, positional patterns), enabling concise expressions with static type safety.   |
 
 ### C# 7.1-2-3 is supported on .NET Framework 4.6-4.8, .NET Core 2.1-2.2 (May 2018)
 
