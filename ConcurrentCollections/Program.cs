@@ -12,6 +12,9 @@ static class Program
         //ConcurrentDictionaryExample();
         //ConcurrentBagExample();
         //ThreadSafeListLikeAsConcurrentList();
+        //ConcurrentQueueExample();
+        //ConcurrentStackExample();
+        //BlockingCollectionExample();
     }
     
     static readonly ConcurrentDictionary<int, string> Dictionary = new ConcurrentDictionary<int, string>();
@@ -57,5 +60,62 @@ static class Program
         });
         
         Console.WriteLine($"Count: {List.Count}");
+    }
+    
+    static readonly ConcurrentQueue<int> Queue = new ConcurrentQueue<int>();
+    static void ConcurrentQueueExample()
+    {
+        Parallel.For(0, 100, i =>
+        {
+            Queue.Enqueue(i);
+        });
+
+        Console.WriteLine($"Queue Count After Enqueue: {Queue.Count}");
+
+        while (Queue.TryDequeue(out var result))
+        {
+            Console.WriteLine($"Dequeued: {result}");
+        }
+    }
+
+    static readonly ConcurrentStack<int> Stack = new ConcurrentStack<int>();
+    static void ConcurrentStackExample()
+    {
+        Parallel.For(0, 100, i =>
+        {
+            Stack.Push(i);
+        });
+
+        Console.WriteLine($"Stack Count After Push: {Stack.Count}");
+
+        while (Stack.TryPop(out var result))
+        {
+            Console.WriteLine($"Popped: {result}");
+        }
+    }
+
+    static readonly BlockingCollection<int> Blocking = new BlockingCollection<int>(boundedCapacity: 10);
+    static void BlockingCollectionExample()
+    {
+        var producer = Task.Run(() =>
+        {
+            for (int i = 0; i < 20; i++)
+            {
+                Blocking.Add(i);
+                Console.WriteLine($"Produced: {i}");
+            }
+            Blocking.CompleteAdding();
+        });
+
+        var consumer = Task.Run(() =>
+        {
+            foreach (var item in Blocking.GetConsumingEnumerable())
+            {
+                Console.WriteLine($"Consumed: {item}");
+                Thread.Sleep(100); // Simulate work
+            }
+        });
+
+        Task.WaitAll(producer, consumer);
     }
 }
