@@ -8,6 +8,12 @@ Here are examples of C# programming to help you stay up-to-date with the latest 
 
 ## Version History
 
+### C# 14 is supported on .NET 10 (November 2025)
+
+| Feature | Description |
+|---------|-------------|
+|         |             |
+
 ### C# 13 is supported on .NET 9 (September 2024)
  
 | Feature                                                                                                       | Description                                                                                                                                                                                                                        |
