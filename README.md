@@ -4,6 +4,8 @@
 
 Here are examples of C# programming to help you stay up-to-date with the latest language versions. These examples provide a comprehensive overview of C#'s features and capabilities and serve as a valuable resource for anyone looking to learn or improve their skills in this programming language.
 
+![image](/docs/dotnet-releases-support-7-to-11.jpg)
+
 ****Note***: Continuous improvements and bug fixes are made within the repository to produce better solutions.*
 
 ## Version History
