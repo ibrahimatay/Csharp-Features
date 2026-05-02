@@ -12,9 +12,10 @@ Here are examples of C# programming to help you stay up-to-date with the latest 
 
 ### C# 14 is supported on .NET 10 (November 2025)
 
-| Feature | Description |
-|---------|-------------|
-|         |             |
+| Feature                                                | Description |
+|--------------------------------------------------------|-------------|
+| [Extension members](ExtensionTypesCsharp14/Program.cs) |  Demonstrates the new C# 14 extension block syntax, going beyond classic this-based extension methods by adding an extension property (IsEmpty), an instance extension method (PrintAll), and a static extension member (EmptySet) to IEnumerable<T>. Enables cleaner, more readable type augmentation in both instance and static scopes.           |
+| [Field-Backed Properties](FieldBackedProperties/Program.cs) |Demonstrates the field keyword, allowing validation and normalization logic to be added to auto-property get/set blocks without declaring a separate backing field. Using a customer account scenario, it normalizes email, rejects empty names and negative credit limits, while keeping encapsulation intact since the backing field is only accessible from within the accessors.|
 
 ### C# 13 is supported on .NET 9 (September 2024)
  
