@@ -12,9 +12,9 @@ Here are examples of C# programming to help you stay up-to-date with the latest 
 
 ### C# 14 is supported on .NET 10 (November 2025)
 
-| Feature | Description |
-|---------|-------------|
-|         |             |
+| Feature                                                | Description |
+|--------------------------------------------------------|-------------|
+| [Extension members](ExtensionTypesCsharp14/Program.cs) |             |
 
 ### C# 13 is supported on .NET 9 (September 2024)
  
