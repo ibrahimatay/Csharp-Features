@@ -14,7 +14,7 @@ Here are examples of C# programming to help you stay up-to-date with the latest 
 
 | Feature                                                | Description |
 |--------------------------------------------------------|-------------|
-| [Extension members](ExtensionTypesCsharp14/Program.cs) |             |
+| [Extension members](ExtensionTypesCsharp14/Program.cs) |Demonstrates the new C# 14 extension block syntax, going beyond classic this-based extension methods by adding an extension property (IsEmpty), an instance extension method (PrintAll), and a static extension member (EmptySet) to IEnumerable<T>. Enables cleaner, more readable type augmentation in both instance and static scopes.             |
 
 ### C# 13 is supported on .NET 9 (September 2024)
  
