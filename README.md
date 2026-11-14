@@ -10,6 +10,11 @@ Here are examples of C# programming to help you stay up-to-date with the latest 
 
 ## Version History
 
+### C# 15 is supported on .NET 11 (November 2026)
+| Feature                                                | Description |
+|--------------------------------------------------------|-------------|
+| [Union types](UnionTypes/Program.cs)|Models a FAST money transfer using union types, where each step returns a union (AccountLookup, FraudDecision, GatewayResponse, TransferOutcome) handled with exhaustive switch expressions.|
+
 ### C# 14 is supported on .NET 10 (November 2025)
 
 | Feature                                                | Description |
