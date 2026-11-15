@@ -14,6 +14,7 @@ Here are examples of C# programming to help you stay up-to-date with the latest 
 | Feature                                                | Description |
 |--------------------------------------------------------|-------------|
 | [Union types](UnionTypes/Program.cs)|Models a FAST money transfer using union types, where each step returns a union (AccountLookup, FraudDecision, GatewayResponse, TransferOutcome) handled with exhaustive switch expressions.|
+| [Closed hierarchies](ClosedHierarchies/Program.cs)|In LoanFlow, LoanApplication and Decided are closed, so the compiler knows every possible state. Every switch compiles exhaustively without a _ => arm, and adding a new state breaks any switch that doesn’t handle it.|
 
 ### C# 14 is supported on .NET 10 (November 2025)
 
